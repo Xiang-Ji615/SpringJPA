@@ -4,6 +4,7 @@
    ],
   "packageRules": [
     {
+      "prBodyColumns": ["Package", "Type", "Update", "New value", "References", "Package file"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "automerge": true
     }
